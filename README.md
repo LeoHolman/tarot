@@ -1,8 +1,56 @@
-# Getting Started with Create React App
+# Tarot Board
+This project is a tarot reading app.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tarot
+Tarot cards have a history in mystics and fortune telling. I personally subscribe to the belief that 
+tarot cards do not read a predefined future, rather, they give us a framework for taking unique
+perspectives on the situations we find ourselves in. Thus they are not a tool for clarvoyance, but 
+self reflection.
 
-## Available Scripts
+### Tarot Cards
+There are 78 total cards, each with a number (except the fool) and a suit.
+
+### Suits
+#### Major Arcana (22 cards)
+Major Arcana tell a story of a individual's evolution.
+
+#### Wands (Minor Arcana)
+Wands represent passion, inspiration, and willpower.
+
+Associated with Fire.
+
+#### Cups (Minor Arcana)
+Cups represent emotions, the unconscious, creativity, and intuition.
+
+Associated with Water.
+
+#### Swords (Minor Arcana)
+Swords are associated with intelligence, logic, truth, ambition, conflict, and communication.
+
+Associated with Air.
+
+#### Pentacles (Minor Arcana)
+Pentacles are associated with security, stability, nature, health, and prosperity.
+
+Associated with Earth.
+
+## Project Structure
+* `/public` all publicly served assets
+* `/src` app code
+* `/src/components` React component library
+* `/src/constants` Constant data values
+* `/src/App.js` Main App component
+* `/src/*.text.js` test file for component
+* `/src/index.js` entry point for application
+
+## Project Style
+* Prefer symantic composition
+* * When a component represents something the user sees, break it into it's own react component and name it meaninfully. Compose these semantic components to build the app.
+
+* CSS-in-JS
+* * Seperation of concerns does not mean putting CSS in a seperate file. It means each component should have a defined set of responsibilites easily surmized by the name of the component. This includes styling. Use `@mui/styles` to add classes to control the styles of components.
+
+## Scripts
 
 In the project directory, you can run:
 
@@ -39,32 +87,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Notes
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

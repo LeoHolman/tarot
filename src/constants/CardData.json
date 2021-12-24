@@ -1,0 +1,26 @@
+[
+  {
+    "number": null,
+    "suit": "major",
+    "name": "The Fool",
+    "text": "Innocence, new beginnings, free spirit",
+    "invertedText": "recklessness, taken advatage of",
+    "inverted": false
+  },
+  {
+    "number": 1,
+    "suit": "major",
+    "name": "The Magician",
+    "text": "willpower, desire, creation, manifestation",
+    "invertedText": "trickery, illusions, out of touch",
+    "inverted": false
+  },
+  {
+    "number": 2,
+    "suit": "major",
+    "name": "The High Priestess",
+    "text": "intuitive, unconscious, inner voice",
+    "invertedText": "lack of center, lost inner voice, repressed feelings",
+    "inverted": false
+  }
+]

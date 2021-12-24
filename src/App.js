@@ -1,23 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+// data
+import cards from "./constants/CardData.json";
+
+// styling
+import { makeStyles } from "@mui/styles";
+
+// components
+import { TarotBoard } from "./components/TarotBoard";
+
+const useStyles = makeStyles({
+  app: {
+    textAlign: "center",
+    backgroundColor: "#222222",
+    fontSize: "calc(10px + 2vmin)",
+    color: "#cccccc",
+    minHeight: "100vh",
+    width: "100%"
+  },
+  header: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center"
+  }
+});
 
 function App() {
+  const classes = useStyles();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className={classes.app}>
+      <header className={classes.header}>
+        <h1>Tarot Board</h1>
       </header>
+      <TarotBoard cards={cards} />
     </div>
   );
 }
