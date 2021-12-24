@@ -7,6 +7,9 @@ import { makeStyles } from "@mui/styles";
 // components
 import { TarotBoard } from "./components/TarotBoard";
 
+// utils
+import { drawRandom } from "./utils/draw";
+
 const useStyles = makeStyles({
   app: {
     textAlign: "center",
@@ -32,7 +35,7 @@ function App() {
       <header className={classes.header}>
         <h1>Tarot Board</h1>
       </header>
-      <TarotBoard cards={cards} />
+      <TarotBoard cards={drawRandom(3, cards)} />
     </div>
   );
 }
