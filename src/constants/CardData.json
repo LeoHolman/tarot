@@ -294,5 +294,116 @@
     "text": "big picture, leader, overcoming challenges",
     "invertedText": "impulsive, overbearing, unbelievable",
     "inverted": false
+  },
+  {
+    "number": 1,
+    "suit": "cups",
+    "name": "Ace",
+    "text": "new feelings, spirituality, intuition",
+    "invertedText": "emotional loss, blocked creativity, emptiness",
+    "inverted": false
+  },
+  {
+    "number": 2,
+    "suit": "cups",
+    "name": "Two",
+    "text": "unity, partnership, connection",
+    "invertedText": "imbalance, broken communication, tension",
+    "inverted": false
+  },
+  {
+    "number": 3,
+    "suit": "cups",
+    "name": "Three",
+    "text": "friendship, community, happiness",
+    "invertedText": "overindulgence, gossip, isolation",
+    "inverted": false
+  },
+  {
+    "number": 4,
+    "suit": "cups",
+    "name": "Four",
+    "text": "apathy, contemplation, disconnectedness",
+    "invertedText": "sudden awareness, choosing",
+    "inverted": false
+  },
+  {
+    "number": 5,
+    "suit": "cups",
+    "name": "Five",
+    "text": "loss, grief, self-pity",
+    "invertedText": "acceptance, moving on, finding peace",
+    "inverted": false
+  },
+  {
+    "number": 6,
+    "suit": "cups",
+    "name": "Six",
+    "text": "familiarity, happy memories, healing",
+    "invertedText": "moving forward, leaving home, independence",
+    "inverted": false
+  },
+  {
+    "number": 7,
+    "suit": "cups",
+    "name": "Seven",
+    "text": "searching for purpose, choices, daydreaming",
+    "invertedText": "lack of purpose, diversion",
+    "inverted": false
+  },
+  {
+    "number": 8,
+    "suit": "cups",
+    "name": "Eight",
+    "text": "walking away, disillusionment, leaving behind",
+    "invertedText": "avoidance, fear of change",
+    "inverted": false
+  },
+  {
+    "number": 9,
+    "suit": "cups",
+    "name": "Nine",
+    "text": "satisfaction, emotional stability, luxury",
+    "invertedText": "lack of inner joy, smugness, dissatisfaction",
+    "inverted": false
+  },
+  {
+    "number": 10,
+    "suit": "cups",
+    "name": "Ten",
+    "text": "inner happiness, fulfillment, dreams coming",
+    "invertedText": "shattered dreams, broken family"
+  },
+  {
+    "number": 11,
+    "suit": "cups",
+    "name": "Page",
+    "text": "happy surprise, dreamer, sensitivity",
+    "invertedText": "emotional immaturity, insecurity",
+    "inverted": false
+  },
+  {
+    "number": 12,
+    "suit": "cups",
+    "name": "Knight",
+    "text": "following the heart, idealist, romantic",
+    "invertedText": "moodiness, disappointment",
+    "inverted": false
+  },
+  {
+    "number": 13,
+    "suit": "cups",
+    "name": "Queen",
+    "text": "compassion, calm, comfort",
+    "invertedText": "martydom, insecurity, dependence",
+    "inverted": false
+  },
+  {
+    "number": 14,
+    "suit": "cups",
+    "name": "King",
+    "text": "compassion, control, balance",
+    "invertedText": "coldness, moodiness, bad advice",
+    "inverted": false
   }
 ]
