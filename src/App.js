@@ -6,6 +6,7 @@ import { makeStyles } from "@mui/styles";
 
 // components
 import { TarotBoard } from "./components/TarotBoard";
+import { SpreadsNav } from "./components/SpreadsNav";
 
 // utils
 import { drawRandom } from "./utils/draw";
@@ -35,6 +36,7 @@ function App() {
       <header className={classes.header}>
         <h1>Tarot Board</h1>
       </header>
+      <SpreadsNav />
       <TarotBoard cards={drawRandom(3, cards)} />
     </div>
   );
