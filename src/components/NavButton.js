@@ -9,7 +9,6 @@ const useStyles = makeStyles({
 
 export const NavButton = ({label, onClick}) => {
     const classes = useStyles();
-    console.log(label);
     return (
         <button className={classes.button} onClick={onClick}>{label}</button>
     )

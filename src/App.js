@@ -1,3 +1,4 @@
+import React, {useState} from 'react';
 // data
 import cards from "./constants/CardData.json";
 
@@ -30,14 +31,15 @@ const useStyles = makeStyles({
 
 function App() {
   const classes = useStyles();
+  const [spread, setSpread] = useState('PastPresentFuture');
 
   return (
     <div className={classes.app}>
       <header className={classes.header}>
-        <h1>Tarot Board</h1>
+        <h1>Tarot</h1>
       </header>
-      <SpreadsNav />
-      <TarotBoard cards={drawRandom(3, cards)} />
+      <SpreadsNav setSpread={setSpread}/>
+      <TarotBoard spread={spread} cards={drawRandom(3, cards)} />
     </div>
   );
 }
